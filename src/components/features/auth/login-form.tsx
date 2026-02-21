@@ -1,3 +1,4 @@
+import PasswordInput from '@/components/shared/password-input';
 import { Button } from '@/components/ui/button';
 import {
   Form,
@@ -50,7 +51,7 @@ const LoginForm = ({ onLogin }: LoginFormProps) => {
               <FormItem>
                 <FormLabel>Password</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter Password..' {...field} />
+                  <PasswordInput placeholder='Enter Password..' {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
