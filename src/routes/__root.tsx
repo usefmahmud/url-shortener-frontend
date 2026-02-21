@@ -3,7 +3,9 @@ import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 
 const RootLayout = () => (
   <>
-    <Outlet />
+    <div className='bg-background'>
+      <Outlet />
+    </div>
     <TanStackRouterDevtools />
   </>
 );
